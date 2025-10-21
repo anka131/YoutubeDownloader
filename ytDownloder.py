@@ -4,7 +4,6 @@ from tkinter import messagebox
 from tkinter import ttk
 import threading
 
-import time
 
 def on_progress(stream, chunk, bites_remaining):
     total_size = stream.filesize
